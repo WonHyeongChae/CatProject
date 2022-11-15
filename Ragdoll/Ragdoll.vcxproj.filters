@@ -4,6 +4,9 @@
     <Filter Include="Ragdoll">
       <UniqueIdentifier>{8A10AC95-F6EF-2A31-FF07-B6076B669192}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Ragdoll\Events">
+      <UniqueIdentifier>{2E7D6C40-1A4B-6046-03DF-D06CEF4B3CAB}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Ragdoll.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\Ragdoll\EntryPoint.h">
       <Filter>Ragdoll</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Ragdoll\Events\ApplicationEvent.h">
+      <Filter>Ragdoll\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Ragdoll\Events\Event.h">
+      <Filter>Ragdoll\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Ragdoll\Events\KeyEvent.h">
+      <Filter>Ragdoll\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Ragdoll\Events\MouseEvent.h">
+      <Filter>Ragdoll\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\Ragdoll\Log.h">
       <Filter>Ragdoll</Filter>

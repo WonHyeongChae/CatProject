@@ -76,7 +76,7 @@ cmake-build-debug-visual-studio/
 .idea/
 bin/
 bin-int/
-!vendor/
+!vendor
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/

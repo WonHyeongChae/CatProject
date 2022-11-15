@@ -45,10 +45,6 @@ project "Ragdoll"
 
 	links 
 	{ 
-		"GLEW",
-		"SDL2",
-		"ImGui",
-		"opengl32.lib"
 	}
 
 	filter "system:windows"
@@ -94,7 +90,7 @@ project "Sandbox"
 	includedirs
 	{
 		"Ragdoll/src",
-		"%{prj.name}/vendor/spdlog/include"
+		"Ragdoll/vendor/spdlog/include"
 	}
 
 	links
