@@ -4,8 +4,6 @@
 
 #include "Event.h"
 
-#include <sstream>
-
 namespace Ragdoll
 {
 	class RAGDOLL_API MouseMovedEvent : public Event

@@ -12,7 +12,7 @@
 #include <unordered_map>
 #include <unordered_set>
 
-// #include "Ragdoll/Log.h"
+#include "Ragdoll/Log.h"
 
 #ifdef RAG_PLATFORM_WINDOWS
 #include <Windows.h>

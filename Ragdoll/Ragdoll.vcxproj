@@ -112,6 +112,7 @@
     <ClInclude Include="src\Ragdoll\Events\KeyEvent.h" />
     <ClInclude Include="src\Ragdoll\Events\MouseEvent.h" />
     <ClInclude Include="src\Ragdoll\Log.h" />
+    <ClInclude Include="src\Ragdoll\Window.h" />
     <ClInclude Include="src\ragpch.h" />
   </ItemGroup>
   <ItemGroup>

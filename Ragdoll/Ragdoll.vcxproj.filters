@@ -35,6 +35,7 @@
       <Filter>Ragdoll</Filter>
     </ClInclude>
     <ClInclude Include="src\ragpch.h" />
+    <ClInclude Include="src\Ragdoll\Window.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Ragdoll\Application.cpp">

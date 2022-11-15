@@ -1,9 +1,7 @@
 #pragma once
 
+#include "ragpch.h"
 #include "Ragdoll/Core.h"
-
-#include <string>
-#include <functional>
 
 namespace Ragdoll
 {
