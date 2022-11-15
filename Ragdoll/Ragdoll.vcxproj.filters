@@ -16,10 +16,16 @@
     <ClInclude Include="src\Ragdoll\EntryPoint.h">
       <Filter>Ragdoll</Filter>
     </ClInclude>
+    <ClInclude Include="src\Ragdoll\Log.h">
+      <Filter>Ragdoll</Filter>
+    </ClInclude>
     <ClInclude Include="src\ragpch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Ragdoll\Application.cpp">
+      <Filter>Ragdoll</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Ragdoll\Log.cpp">
       <Filter>Ragdoll</Filter>
     </ClCompile>
     <ClCompile Include="src\ragpch.cpp" />

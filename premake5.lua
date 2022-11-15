@@ -12,6 +12,7 @@ outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 -- Include directories relative to root folder (solution directory)
 IncludeDir = {}
 
+
 startproject "Sandbox"
 
 group "Dependencies"
@@ -38,7 +39,8 @@ project "Ragdoll"
 
 	includedirs
 	{
-		"%{prj.name}/src"
+		"%{prj.name}/src",
+		"%{prj.name}/vendor/spdlog/include"
 	}
 
 	links 
@@ -91,7 +93,8 @@ project "Sandbox"
 
 	includedirs
 	{
-		"Ragdoll/src"
+		"Ragdoll/src",
+		"%{prj.name}/vendor/spdlog/include"
 	}
 
 	links

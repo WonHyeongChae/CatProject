@@ -1,0 +1,3 @@
+[submodule "Ragdoll/vendor/spdlog"]
+	path = Ragdoll/vendor/spdlog
+	url = https://github.com/gabime/spdlog
